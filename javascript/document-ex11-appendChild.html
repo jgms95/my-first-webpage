@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+  </style>
+</head>
+<body>
+   <div class="container">
+       <select onchange="addItem()"  name="" id="select1" class="custom-select">
+           <option value="딸기">딸기</option>
+           <option value="사과">사과</option>
+           <option value="키위">키위</option>
+       </select>
+       <ul id="result"></ul>
+   </div>
+
+   <script>
+       function addItem(){
+           var v = document.getElementById("select1").value;
+           var newItem = document.createElement("li");
+           newItem.innerHTML = v;
+
+           document.getElementById("result").appendChild(newItem);
+       }
+   </script>
+
+</body>
+</html>

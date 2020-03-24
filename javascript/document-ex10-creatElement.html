@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function addElement(){
+            var newElem = document.createElement("p");
+            newElem.innerHTML = "새로운 요소" + parseInt(Math.random() * 100 + 1); 
+         //document.getElementById("result").appendChild(newElem);
+            document.getElementById("result").prepend(newElem);
+
+        }
+    </script>
+</head>
+<body>
+    <button onclick = "addElement()">추가</button>
+    <div id="result"></div>
+
+</body>
+</html>

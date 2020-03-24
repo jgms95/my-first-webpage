@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <button id="button1">클릭</button>
+        <button id="button2">클릭2</button>
+        <button id="button3">클릭3</button>
+        <script>
+
+            document.getElementById("button1").onclick=function(){
+                console.log("버튼 클릭됨");
+            }
+
+            document.getElementById("button2").onclick = myfunc;
+
+            var button3 = document.getElementById("button3");
+            button3.addEventListener("click",function(){  //click : 이벤트 이름, function :사용되는 함수
+                console.log("세번째 버튼 클릭됨");
+            }
+            );
+
+            function myfunc(){
+                console.log("두번째 버튼 클릭됨");
+            }
+
+
+        </script>
+
+    </body>
+</html>
