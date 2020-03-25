@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
+    <title>Document</title>
+    <style>
+    </style>
+    <script>
+    $(document).ready(function() {
+        $("p").hide();
+
+        $("#btn1").click(function() {
+            $("p").hide();
+            $("#btn1+p").show();
+        })
+
+        $("#btn2").click(function() {
+            $("p").hide();
+            $("#btn2+p").show();
+        })
+
+        $("#btn3").click(function() {
+            $("p").hide();
+            $("#btn3+p").show();
+        })
+
+
+
+    
+    });
+    </script>
+</head>
+<body>
+    <div class='container'>
+        <button id="btn1" class="btn btn-block btn-primary">첫번째</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nostrum quidem ab doloribus quibusdam est reiciendis, non ducimus iste saepe. Mollitia nostrum alias, veniam reiciendis cupiditate temporibus exercitationem ducimus. Rerum?</p>
+        <button id="btn2" class="btn btn-block btn-primary">두번째</button>
+        <p>Reprehenderit nesciunt fugit quidem, provident quae soluta a suscipit consequuntur! Cum corporis sequi ducimus molestias dolore rerum incidunt debitis illo? Iure enim nesciunt veritatis dicta commodi et accusantium in placeat.</p>
+        <button id="btn3" class="btn btn-block btn-primary">세번째</button>
+        <p>Perferendis minima beatae ut a rerum eveniet cumque dolorum nam repellendus veritatis, amet et mollitia dolore adipisci voluptatem delectus pariatur illum nulla. Placeat, quos. Quam voluptatum voluptas molestias tempore nobis.</p>
+    </div>
+</body>
+</html>
