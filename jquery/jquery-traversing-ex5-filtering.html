@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
+    <title>Document</title>
+    <style>
+    </style>
+    <script>
+    $(document).ready(function() {
+        $("h1").first().css("color","yellow");
+        $("h1").last().css("color","red");
+        $("h1").eq(5).css("color","blue")  //앞에서 6번째
+        $("h1").filter(".myhead").css("color","gold");   
+        $("h1").not(".myhead").css("background-color","pink");
+    });
+    </script>
+</head>
+<body>
+    <div class='container'>
+        <h1>심</h1>
+        <h1>심</h1>
+        <h1 class="myhead">하</h1>
+        <div>
+        <h1 class="myhead">다</h1>
+        <h1>아</h1>
+        <h1>주</h1>
+        </div>
+        <h1>심</h1>
+        <h1>심</h1>
+        <h1>해</h1>
+        <h1>!!!</h1>
+    </div>
+</body>
+</html>
