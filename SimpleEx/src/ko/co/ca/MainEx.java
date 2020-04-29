@@ -4,7 +4,7 @@ import com.naver.*;
 public class MainEx {
 	public static void main(String[] args) {
 		
-		Monster m = new Monster(10);
+		Monster m = new Monster(10); //10 = hp
 		Weapon[] weapons = {new Bow("활",1), new Sword("검",5), new Hammer("망치",10)};
 		int hasWeaponIdx = 0;
 		

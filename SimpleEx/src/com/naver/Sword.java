@@ -3,7 +3,7 @@ package com.naver;
 public class Sword extends Weapon{
 
 	public Sword() {
-		super("칼",5);
+		
 	}
 	
 	public Sword(String name, int attackPower) {

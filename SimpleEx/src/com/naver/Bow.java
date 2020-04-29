@@ -3,7 +3,7 @@ package com.naver;
 public class Bow extends Weapon{
 	
 	public Bow() {
-		super("활",1);
+		
 	}
 	
 	public Bow(String name, int attackPower) {

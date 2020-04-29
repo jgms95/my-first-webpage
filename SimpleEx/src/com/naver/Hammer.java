@@ -3,7 +3,7 @@ package com.naver;
 public class Hammer extends Weapon{
 	
 	public Hammer() {
-		super("망치",10);
+		
 	}
 	
 	public Hammer(String name, int attackPower) {
